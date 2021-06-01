@@ -44,7 +44,7 @@ function createWaveCanvas(o){
     let ele = o.element
     let fps = o.speed || 1000/12
     let bg = o.fill || "#23241f"
-    let clr = o.stroke || "#f92672"
+    let clr = o.stroke || "#a6fd04"
 
     // create canvas...
     const canvas = document.createElement('canvas')
